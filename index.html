@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="script.js" defer></script>
+    <title>Images Upload</title>
+  </head>
+
+  <body>
+    <div class="container__upload">
+      <h1>Upload</h1>
+
+      <div class="btns">
+        <label class="btn btn--add" for="upload_image_btn">upload</label>
+      </div>
+
+      <input id="upload_image_btn" type="file" multiple />
+      <div class="preview">
+        <p class="message_is_empty">No files currently selected for upload</p>
+        <div class="wrapper__images"></div>
+      </div>
+    </div>
+  </body>
+</html>
